@@ -1,0 +1,11 @@
+<resources>
+    <style name="LaunchTheme" parent="android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowSplashScreenBackground">#000000</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+        <item name="android:windowSplashScreenAnimationDuration">1200</item>
+    </style>
+
+    <style name="NormalTheme" parent="android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">#000000</item>
+    </style>
+</resources>

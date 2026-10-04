@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SwarmMesh — iQOO Grand Finale idea deck draft</title>
+  <style>
+    :root { color-scheme: light; font-family: Arial, Helvetica, sans-serif; color: #14202c; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #e8edf1; }
+    .instructions { max-width: 1120px; margin: 24px auto; padding: 20px; background: white; line-height: 1.5; }
+    .slide { width: 13.333in; min-height: 7.5in; margin: 24px auto; padding: .48in .65in .7in; background: #fff; position: relative; border-top: .12in solid #dfb42c; }
+    .eyebrow { margin: 0 0 16px; color: #526374; font-size: 16px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+    h1 { margin: 38px 0 20px; font-size: 76px; letter-spacing: -3px; }
+    h2 { margin: 10px 0 26px; font-size: 39px; letter-spacing: -1px; }
+    h3 { margin: 0 0 14px; font-size: 23px; }
+    p, li { font-size: 21px; line-height: 1.42; }
+    p { margin: 12px 0; }
+    li { margin-bottom: 10px; }
+    ul, ol { padding-left: 26px; }
+    .lead { max-width: 950px; font-size: 32px; line-height: 1.3; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .three { grid-template-columns: repeat(3, 1fr); }
+    .card { background: #f0f4f7; padding: 24px; border-radius: 10px; }
+    .card p, .card li { font-size: 20px; }
+    .callout { border-left: 5px solid #dfb42c; background: #fff8df; padding: 16px 20px; margin-top: 24px; }
+    .small { font-size: 17px; line-height: 1.4; color: #405264; }
+    .card .metric { font-size: clamp(28px, 3.6vw, 46px); font-weight: 700; margin: 12px 0 2px; }
+    .flow { display: flex; align-items: stretch; gap: 14px; margin: 30px 0; }
+    .flow > div { flex: 1; background: #f0f4f7; padding: 22px 16px; border-bottom: 4px solid #dfb42c; font-size: 22px; font-weight: 700; }
+    table { width: 100%; border-collapse: collapse; font-size: 20px; }
+    th, td { padding: 15px 12px; border-bottom: 1px solid #ccd6df; text-align: left; line-height: 1.35; }
+    th { background: #f0f4f7; }
+    footer { position: absolute; bottom: .25in; left: .65in; right: .65in; display: flex; justify-content: space-between; gap: 20px; font-size: 13px; color: #526374; }
+    @media screen and (max-width: 1280px) {
+      .slide { width: calc(100% - 32px); min-height: 720px; }
+    }
+    @media screen and (max-width: 760px) {
+      .slide { padding: 30px 24px 80px; }
+      .grid, .three { grid-template-columns: 1fr; }
+      .flow { flex-direction: column; }
+      h1 { font-size: 56px; }
+      h2 { font-size: 32px; }
+      .lead { font-size: 26px; }
+      footer { left: 24px; right: 24px; }
+    }
+    @page { size: 13.333in 7.5in; margin: 0; }
+    @media print {
+      body { background: white; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .instructions { display: none; }
+      .slide { width: 13.333in; height: 7.5in; min-height: 0; margin: 0; break-after: page; page-break-after: always; }
+      .slide:last-child { break-after: auto; page-break-after: auto; }
+    }
+  </style>
+</head>
+<body>
+  <aside class="instructions">
+    <strong>Draft deck — review before submission.</strong> Open in Chrome/Edge,
+    print to Save as PDF, disable browser headers/footers, and check all eight
+    slides for clipping. This file contains existing-prototype evidence and a
+    proposed event-window scope. Confirm the organizer's prior-work and model
+    requirements before using it as the final application deck. Add verified
+    member names and portfolio links when available.
+  </aside>
+
+  <section class="slide" aria-labelledby="slide-1">
+    <p class="eyebrow">iQOO Grand Finale 2026 · Proposed track: Productivity</p>
+    <h1 id="slide-1">SwarmMesh</h1>
+    <p class="lead">Offline inventory verification.<br>Nearby Android phones. One traceable report.</p>
+    <p>Stored label photos + expected IDs → decode, reconcile and export.</p>
+    <div class="callout">
+      <p><strong>Three final-year AI/ML engineering students · Bengaluru · 9–11 October 2026</strong></p>
+      <p class="small">Idea proposal informed by a disclosed pre-existing research prototype.
+        Event-window implementation and permitted reuse require organizer confirmation.</p>
+    </div>
+    <footer><span>Idea deck draft · 3 October 2026</span><span>1 / 8</span></footer>
+  </section>
+
+  <section class="slide" aria-labelledby="slide-2">
+    <p class="eyebrow">Problem and initial user</p>
+    <h2 id="slide-2">Turn label photos into an inventory answer</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Proposed user</h3>
+        <p>A small stockroom or campus equipment-audit team with package-label
+          photos and an expected inventory list.</p>
+        <p>Task: identify duplicates, absent expected IDs, unexpected IDs and
+          photos that need another look.</p>
+      </div>
+      <div class="card">
+        <h3>Workflow to validate</h3>
+        <p>Local processing when internet access is unavailable; a saved report
+          that teammates can inspect and export.</p>
+        <p>Next evidence: observe an actual audit and compare the complete
+          workflow with an offline single-phone process.</p>
+      </div>
+    </div>
+    <div class="callout"><p class="small">Current evidence uses generated labels.
+      No customer adoption, time-saving or warehouse-deployment claim is made.</p></div>
+    <footer><span>SwarmMesh · User need is a pilot hypothesis</span><span>2 / 8</span></footer>
+  </section>
+
+  <section class="slide" aria-labelledby="slide-3">
+    <p class="eyebrow">Existing prototype workflow</p>
+    <h2 id="slide-3">Phone-led processing, with visible contributions</h2>
+    <div class="flow">
+      <div>1. Select photos<br><span class="small">Leader + expected list</span></div>
+      <div>2. Approve phones<br><span class="small">Shared Wi-Fi / hotspot</span></div>
+      <div>3. Decode batches<br><span class="small">On-device ML Kit</span></div>
+      <div>4. Review report<br><span class="small">History + CSV / JSON / text</span></div>
+    </div>
+    <div class="grid">
+      <div><h3>Leader + Workers</h3><p>The Leader also processes work. Reports record
+        completing devices, failed attempts and inventory outcomes.</p></div>
+      <div><h3>Clear interpretation</h3><p>“Missing” means absent from decoded
+        expected IDs. It is not proof that a box is physically missing.</p></div>
+    </div>
+    <p class="small">Core processing uses a local network, not a cloud backend.
+      Existing evidence is from Xiaomi/POCO phones; iQOO validation is pending.</p>
+    <footer><span>SwarmMesh · Pre-existing research, not finale-built work</span><span>3 / 8</span></footer>
+  </section>
+
+  <section class="slide" aria-labelledby="slide-4">
+    <p class="eyebrow">Measured evidence · 40 generated images</p>
+    <h2 id="slide-4">Distributed execution works; speedup is unproven</h2>
+    <div class="grid three">
+      <div class="card"><h3>Single-phone median</h3><p class="metric">1085.54</p><p>milliseconds</p></div>
+      <div class="card"><h3>Two-phone median</h3><p class="metric">1411.56</p><p>milliseconds</p></div>
+      <div class="card"><h3>Median ratio</h3><p class="metric">0.77×</p><p>Swarm took ~30% longer</p></div>
+    </div>
+    <ul>
+      <li>Three pairs reported agreement between single and distributed results.</li>
+      <li>One exported pair: Xiaomi 2201116SI handled 29 images; POCO X2 handled 11.</li>
+      <li>Binary transfer and export verified in that pair; zero retries occurred.</li>
+    </ul>
+    <p class="small">User-supplied screenshot summary + one JSON pair export, 3 October 2026.
+      Fixed local-then-swarm order; processing benchmark excludes setup/capture/export.
+      Mode agreement is not independent decoder-accuracy evidence.</p>
+    <footer><span>SwarmMesh · Prior generated-data experiment</span><span>4 / 8</span></footer>
+  </section>
+
+  <section class="slide" aria-labelledby="slide-5">
+    <p class="eyebrow">Technical contribution and limits</p>
+    <h2 id="slide-5">Coordinate work and preserve an audit trail</h2>
+    <div class="grid">
+      <div class="card"><h3>Implemented in prior research</h3>
+        <ul>
+          <li>Binary image batching over local WebSockets.</li>
+          <li>Measured task timings, responsiveness, battery and thermal policy.</li>
+          <li>Worker-first recovery with retained completed results.</li>
+          <li>Saved reports, device contributions and benchmark history.</li>
+        </ul>
+      </div>
+      <div class="card"><h3>Attribution and next measurements</h3>
+        <ul>
+          <li>ML Kit supplies barcode/QR decoding; the scheduler is rules-based.</li>
+          <li>No local LLM or verified Snapdragon NPU integration.</li>
+          <li>Physical three-phone recovery remains to be demonstrated.</li>
+          <li>Measure coordination overhead and the useful workload range.</li>
+        </ul>
+      </div>
+    </div>
+    <footer><span>SwarmMesh · Organizer confirmation needed on model requirement</span><span>5 / 8</span></footer>
+  </section>
+
+  <section class="slide" aria-labelledby="slide-6">
+    <p class="eyebrow">Proposed 48-hour event scope</p>
+    <h2 id="slide-6">A narrow build with a demonstrable result</h2>
+    <table>
+      <thead><tr><th>Priority</th><th>Event-window deliverable</th><th>Evidence</th></tr></thead>
+      <tbody>
+        <tr><td>Core</td><td>Select photos/list; on-phone decode; ID validation and report</td><td>Ground-truth manifest and working iQOO flow</td></tr>
+        <tr><td>Next</td><td>One approved Worker; shared processing and contributions</td><td>Exact input coverage and exported results</td></tr>
+        <tr><td>Stretch</td><td>Second Worker; reassignment during unfinished work</td><td>Physical disconnect trial and attempt records</td></tr>
+      </tbody>
+    </table>
+    <div class="callout"><p class="small">The existing completed app is not the
+      event deliverable. Confirm whether fresh implementation of this idea is
+      permitted and document any allowed reuse. Adjust scope if a different
+      local/open-source model is required.</p></div>
+    <footer><span>SwarmMesh · Proposed scope, not completed event work</span><span>6 / 8</span></footer>
+  </section>
+
+  <section class="slide" aria-labelledby="slide-7">
+    <p class="eyebrow">Team and phone-first execution</p>
+    <h2 id="slide-7">Three owners, one integrated phone demo</h2>
+    <div class="grid three">
+      <div class="card"><h3>Runtime / integration</h3><p>Decoder, Leader/Worker
+        protocol, integration and submission ownership.</p></div>
+      <div class="card"><h3>Android / phone UX</h3><p>Photo/list selection, report
+        usability, device setup and Office Kit workflow.</p></div>
+      <div class="card"><h3>Evaluation / pitch</h3><p>Expected results, physical
+        trials, honest measurements, deck and presentation.</p></div>
+    </div>
+    <ul>
+      <li>Preparation equipment: one laptop and three to four phones.</li>
+      <li>Plan for a Leader and two Workers; optional fourth phone hosts the hotspot.</li>
+      <li>Use the iQOO phone for the event demo and Office Kit for permitted
+        phone/laptop work; rehearse the actual Green/Red instructions.</li>
+    </ul>
+    <footer><span>SwarmMesh · Roles proposed; loaner/network details to confirm</span><span>7 / 8</span></footer>
+  </section>
+
+  <section class="slide" aria-labelledby="slide-8">
+    <p class="eyebrow">Success criteria and next validation</p>
+    <h2 id="slide-8">Useful inventory output. Inspectable evidence.</h2>
+    <div class="grid">
+      <div class="card"><h3>What the demo must establish</h3>
+        <ul>
+          <li>Known inputs produce the expected inventory outcomes.</li>
+          <li>Participating phones complete traceable work.</li>
+          <li>The report can be saved, reopened and exported.</li>
+          <li>Failures and slower runs remain visible.</li>
+        </ul>
+      </div>
+      <div class="card"><h3>What comes next</h3>
+        <ul>
+          <li>Organizer-approved event scope and model choice.</li>
+          <li>Validation on iQOO hardware and a real local network.</li>
+          <li>A permissioned inventory-user trial with ground truth.</li>
+          <li>Measured comparison with a simple offline workflow.</li>
+        </ul>
+      </div>
+    </div>
+    <p><strong>Our goal:</strong> make offline inventory reconciliation understandable,
+      reproducible and accountable across nearby phones.</p>
+    <footer><span>SwarmMesh · Prior work disclosed throughout this proposal</span><span>8 / 8</span></footer>
+  </section>
+</body>
+</html>
