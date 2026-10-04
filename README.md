@@ -4,6 +4,27 @@ SwarmMesh is an offline, local-network distributed-work platform for Android pho
 
 The workload-platform scope, adapter sequence, design requirements and decisions needed for storage/legal pages are recorded in [ROADMAP.md](ROADMAP.md).
 
+## About
+
+SWARM MESH is a local-first distributed work platform for nearby Android
+devices. One phone acts as the **Leader** and assigns independent tasks to
+approved **Workers** over a local Wi-Fi or hotspot network. Work can continue
+without a cloud backend or internet connection.
+
+The project provides a reusable mesh runtime for workload adapters, including
+inventory verification and mathematical computing. It includes device
+discovery, connection approval, telemetry, workload recovery, measured
+contributions, private run history and report export.
+
+### Current status
+
+- Flutter application with Android Leader and Worker workspaces
+- Local WebSocket communication with NSD/mDNS discovery
+- Inventory image decoding and validation reports
+- Monte Carlo π, linear regression and prime-factorization workloads
+- JSON, CSV, text and PDF report export
+- Automated test suite and debug APK build support
+
 ## Working milestone
 
 **Version 1.2.5+9 — focused platform UI checkpoint.** The app now has focused
