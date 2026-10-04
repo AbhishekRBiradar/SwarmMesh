@@ -4,15 +4,6 @@ SwarmMesh is an offline, local-network distributed-work platform for Android pho
 
 The workload-platform scope, adapter sequence, design requirements and decisions needed for storage/legal pages are recorded in [ROADMAP.md](ROADMAP.md).
 
-Competition preparation, including the evidence-based pitch, slide outline,
-live-demo script, benchmark priorities and judge Q&A, is in
-[COMPETITION_PLAN.md](COMPETITION_PLAN.md). It now includes verified public finale
-dates/rules and a preparation schedule. [SUBMISSION_DRAFT.md](SUBMISSION_DRAFT.md)
-contains the idea-form copy, role split and organizer questions;
-[COMPETITION_DECK.html](COMPETITION_DECK.html) is an eight-slide draft to export
-from a browser as PDF. The existing prototype is disclosed as prior work, and
-permitted event reuse/model requirements still need organizer confirmation.
-
 ## Working milestone
 
 **Version 1.2.5+9 — focused platform UI checkpoint.** The app now has focused

@@ -65,8 +65,6 @@ previews of Command, Workloads and Network were rendered at 390×844; automated
 small-screen/reduced-motion checks cover a 320×640 viewport. Physical-device
 visual review, networking and performance evaluation remain the next phone checks.
 
-- Confirmed team: three final-year engineering students specializing in AI/ML.
-  Competition materials now identify the student category.
 - New dark-navy/cyan/gold visual system, Command / Workloads / Network
   navigation, prominent mesh controls and logical live-peer visualization.
 - Workload catalog and mathematical adapter: deterministic Monte Carlo π,
@@ -94,8 +92,7 @@ visual review, networking and performance evaluation remain the next phone check
 - Old session schema remains readable; missing diagnostics are shown as unrecorded.
 
 No new physical performance result is established by these changes. Re-run the
-same phone/dataset conditions and inspect diagnostic exports. Existing work
-continues to be disclosed as pre-event research in competition materials.
+same phone/dataset conditions and inspect diagnostic exports.
 
 | Area | Implemented status |
 | --- | --- |
